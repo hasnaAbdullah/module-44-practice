@@ -1,6 +1,6 @@
 import React from "react";
 
-function FeatureOption() {
+function FeatureOption({ feature }) {
   return (
     <li>
       <svg
@@ -17,7 +17,7 @@ function FeatureOption() {
           d="M5 13l4 4L19 7"
         />
       </svg>
-      <span>High-resolution image generation</span>
+      <span>{feature}</span>
     </li>
   );
 }

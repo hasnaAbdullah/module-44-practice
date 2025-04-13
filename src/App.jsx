@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "../V-02/Components/NavBar/Navbar";
 import { Suspense } from "react";
 import PricingOptions from "../V-05/PricingOptions/PricingOptions";
+import LineChart01 from "../V-07/Charts/LineChart-01";
 
 const pricesPromise = fetch("prices.json").then((res) => res.json());
 function App() {
@@ -14,6 +15,10 @@ function App() {
       >
         <PricingOptions pricesPromise={pricesPromise} />
       </Suspense>
+
+      <div className="bg-blue-950">
+        <LineChart01 />
+      </div>
     </div>
   );
 }

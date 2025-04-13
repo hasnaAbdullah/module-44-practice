@@ -35,7 +35,7 @@ function Navbar() {
 
         {isOpen ? (
           <ul
-            className={`md:hidden absolute max-w-[400px] top-14 bg-amber-300  space-y-5 p-3
+            className={`md:hidden absolute z-10 max-w-[400px] top-14 bg-amber-300  space-y-5 p-3
           `}
           >
             {links}

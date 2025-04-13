@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "price": "$9/mo",
+    "description": "Perfect for individuals starting out.",
+    "features": [
+      "1 Website",
+      "Basic Support",
+      "10 GB Storage",
+      "Community Access"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pro",
+    "price": "$29/mo",
+    "description": "Great for growing teams and freelancers.",
+    "features": [
+      "10 Websites",
+      "Priority Support",
+      "100 GB Storage",
+      "Advanced Analytics",
+      "Team Collaboration"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Enterprise",
+    "price": "$99/mo",
+    "description": "Best for large businesses and agencies.",
+    "features": [
+      "Unlimited Websites",
+      "24/7 Premium Support",
+      "1 TB Storage",
+      "Custom Integrations",
+      "Dedicated Account Manager"
+    ]
+  }
+]
